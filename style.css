@@ -19,8 +19,13 @@ section{
     margin-top: 5%;
 }
 
+.centered{
+    display: flex;
+    justify-content: center;
+}
+
 .bg-success, .bg-danger{
-    color: white;
+    color: white !important;
 }
 
 .quiz-card{
@@ -41,4 +46,10 @@ section{
     display: flex; 
     justify-content: space-around;
     align-items: center;
+}
+
+#end-screen-result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
